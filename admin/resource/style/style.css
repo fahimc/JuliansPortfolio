@@ -1,0 +1,254 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style: none;
+}
+/*
+ * Main
+ * 
+ */
+html
+{
+	min-height: 100%;
+	width: 100%;
+	height: 100% ;
+}
+body
+{
+	height: 100% ;
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 12px;
+	 background:#D6D6D6;
+	 overflow: auto;
+}
+#spacer
+{
+	width:100%;
+	height: 50px;
+}
+#login
+{
+	display:none;
+	border: 1px solid #333;
+	width:300px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333;	
+}
+#login h1{
+	margin-bottom: 10px;
+	color: #E01B6A;
+}
+#login ul 
+{
+	width:inherit;
+}
+#login ul li
+{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+#login ul .field
+{
+	color:#fff;
+	width:50px;
+	margin-top: 5px;
+}
+#login ul li input
+{
+	width:200px;
+	margin-left: 5px;
+	 -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    border:1px solid #e4e4e4;
+    height:30px;
+    padding-left:10px; 
+}
+
+.clearBoth
+{
+	padding:0;
+	margin:0;
+	float: none !important;
+	clear:both;
+	width:0;
+}
+#submit
+{
+	padding: 5px 20px 5px 20px;
+	margin-left: 200px;
+	background-color:#E01B6A;
+	border: 2px solid #BF1559;
+	color:#fff;
+	cursor: pointer;
+}
+#submit:hover
+{
+	background-color: #D44880;
+}
+#loginError{
+	color:#C9322A;
+}
+#wrapper
+{
+	display: none;
+	height: 100%;
+	min-width:750px;
+	background-color: #fff;
+}
+#wrapper .header
+{
+	border-bottom: 1px solid #e4e4e4;
+	padding: 20px;
+	background-color: #333;
+	
+	
+}
+#wrapper .header h1
+{
+	color:#e4e4e4;
+}
+#nav{
+	width:15%;
+	height: inherit;
+	border-right: 1px solid #333;
+	float: left;
+	background-color: #333;
+	overflow: auto;
+	min-width:200px;
+}
+.page
+{
+	padding: 10px;
+}
+.page ul
+{
+	margin-left: 10px;
+}
+.page .title
+{
+	font-size:16px;
+	font-weight: bold;
+	color:#FFF;
+}
+.elementButton
+{
+	font-size:14px;
+	cursor: pointer;
+	color: #e4e4e4;
+}
+.elementButton:hover
+{
+	color:#E01B6A;
+}
+.contentHolder{
+	float: left;
+	
+}
+.contentHolder hr
+{
+	border: 0;
+	margin-left: 20px;
+	width:inherit;
+	background-color:#E01B6A;
+	color:#E01B6A;
+	height: 2px;
+}
+.contentHolder h1
+{
+	padding: 40px;
+}
+#contentTitle
+{
+	padding: 20px 40px 20px 20px;
+	color:#E01B6A;
+}
+.contentBox
+{
+	padding: 10px 20px 20px 20px;
+	margin-left: 40px;
+}
+#contentValue
+{
+	width: 400px;
+height: 100px;
+display: block;
+}
+#contentElement
+{
+	margin-bottom: 10px;
+}
+#contentElementType
+{
+	margin-bottom: 10px;
+}
+.wrapperUL
+{
+	height: inherit;
+}
+#updateButton
+{
+	padding: 5px 20px 5px 20px;
+	margin-top: 10px;
+	margin-left: 340px;
+	background-color:#E01B6A;
+	border: 2px solid #BF1559;
+	color:#fff;
+	cursor: pointer;
+}
+#updateButton:hover
+{
+	background-color: #D44880;
+}
+#backdrop
+{
+	display:none;
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: #000;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=570);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.7;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.7;
+    
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.7;
+}
+#progress
+{
+	display:none;
+	width:150px;
+	padding:20px;
+	background-color: #fff;
+	position: absolute;
+	top:40%;
+	left:50%; 
+	margin-left: -75px;
+	text-align: center;
+	font-weight: bold;
+}
+#formIframe
+{
+	display: none;
+}
+

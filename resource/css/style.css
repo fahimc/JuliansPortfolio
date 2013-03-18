@@ -1,0 +1,77 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body{
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 62.5%;
+}
+.header
+{
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 30px;
+	font-size: 120%;
+}
+.header ul
+{
+	list-style: none;
+}
+.header ul li
+{
+	
+}
+.header .logo
+{
+	float: left;
+	width:50%;
+}
+.header .nav
+{
+	float: right;
+	width:50%;
+	text-align: right;
+}
+.header .nav li
+{
+	display: inline-block;
+	margin-left: 10px;
+}
+.header hr
+{
+	background-color: #e4e4e4;
+	color:#e4e4e4;
+	border: 0;
+	height: 1px;
+	width:100%;
+	margin-top: 50px;
+}
+#work
+{
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 50px;
+	text-align: center;
+}
+#work li
+{
+	display: inline-block;
+	width: 31%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	
+}
+#work li.last
+{
+	width: 31%;
+	margin-right: 0%;
+}
+#work li img
+{
+	width: 100%;
+}

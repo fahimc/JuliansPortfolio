@@ -1,0 +1,11 @@
+{
+	"index.html": [
+	"resource/template/header.html",
+	"resource/template/work.html"
+	],
+	"about.html": [
+	"resource/template/header.html",
+	"resource/template/nav.html",
+	"resource/template/about.html"
+	]
+}
