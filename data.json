@@ -1,58 +1,42 @@
 {
 	"index.html": [
 		{
+			"id": "workTitle1",
+			"type": "text",
+			"value": "my work 1"
+		}, {
+			"id": "workSubTitle1",
+			"type": "text",
+			"value": "this is the subtitle"
+		}
+		, {
 			"id": "workText1",
 			"type": "text",
-			"value": "hello world again test"
+			"value": "This was the second phase in bringing together the whole Nike brand into one single experience, this part included the whole shopping experience and also the gender landing pages. The goal was to create a fast, easy to use shopping fully integrated with Nike's brand storytelling. The project took nearly two years (I was on it for the last 10 months). The site is designed to fit into 32 languages in 50 countries. I worked all over the designs, but where I most of all made an impact was on the design of gridwalls, cart, checkout, product detail pages, navigations, landing pages (gift cards and kids), mylocker, order/return pages, profile settings, help pages, iconography and form fields.	 Creative Direction: Mark Laughlin, Fura Johannesdottir. Art Direction: Hoshi Ludwig Senior Visual Design: Matt Schreiber, Augusto Paiva Visual Design: Erik Herrström, Rumiana Williams. Interaction Direction: Xavier Gallego Interaction Design: Caitlin Robinson, Rahul Sen, Jiaxin Feng, Evinn Quinn, Rachel Inman, Christine Horvat, Greg Siegal. Production: Mark Norris, Elizabeth Bell, Emily Fare, Dina Mansour, Wes Adams"
+		}
+		, {
+			"id": "workClient1",
+			"type": "text",
+			"value": "Flora"
+		}
+		, {
+			"id": "workAgency1",
+			"type": "text",
+			"value": "Ogilvy"
+		}
+		, {
+			"id": "workHonours1",
+			"type": "text",
+			"value": "None"
+		}
+		, {
+			"id": "workThumb1",
+			"type": "image",
+			"value": "1.jpg"
 		}, {
 			"id": "workImage1",
 			"type": "image",
 			"value": "1.jpg"
-		},
-		{
-			"id": "workText2",
-			"type": "text",
-			"value": "hello world again test"
-		}, {
-			"id": "workImage2",
-			"type": "image",
-			"value": "1.jpg"
-		},{
-			"id": "workText3",
-			"type": "text",
-			"value": "hello world again test"
-		}, {
-			"id": "workImage3",
-			"type": "image",
-			"value": "1.jpg"
-		},
-		{
-			"id": "workText4",
-			"type": "text",
-			"value": "hello world again test"
-		}, {
-			"id": "workImage4",
-			"type": "image",
-			"value": "1.jpg"
-		},
-		{
-			"id": "workText5",
-			"type": "text",
-			"value": "hello world again test"
-		}, {
-			"id": "workImage5",
-			"type": "image",
-			"value": "1.jpg"
-		},
-		{
-			"id": "workText6",
-			"type": "text",
-			"value": "hello world again test"
-		}, {
-			"id": "workImage6",
-			"type": "image",
-			"value": "1.jpg"
 		}
-		
 	]
 }
