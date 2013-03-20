@@ -1,10 +1,10 @@
 <?php
 
-$data = $_POST['data'];
+$data =stripslashes($_POST['data']);
 if (isset($data)) {
 	$saveData = new SaveData();
 	$saveData->backupData();
-	$saveData -> checkData($data);
+	$saveData -> checkData(urldecode($data));
 	$myFile = "../../data.json";
 	$fh = fopen($myFile, 'w') or die("can't open file");
 
@@ -22,21 +22,22 @@ Class SaveData {
 	public $data;
 	public function backupData()
 	{
-		$data = file_get_contents(SaveData::DATA_URL, true);
-		file_put_contents(SaveData::BK_DATA_URL,$data);
+		$content = file_get_contents(SaveData::DATA_URL, true);
+		file_put_contents(SaveData::BK_DATA_URL,$content);
 
 	}
 	public function checkData($val) {
 		$this -> data = json_decode($val);
 
-		//var_dump($this->data);
-
-		foreach ($this->data as $site) {
-			for ($a = 0; $a < sizeof($site); $a++) {
-				$this -> checkType($site[$a]);
+		
+		
+			foreach ($this->data as $site) {
+				for ($a = 0; $a < sizeof($site); $a++) {
+					$this -> checkType($site[$a]);
+				}
+	
 			}
-
-		}
+		
 	}
 
 	private function checkType($obj) {

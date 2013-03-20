@@ -17,14 +17,14 @@ body{
 	margin-right: 10%;
 	padding-top: 30px;
 	font-size: 120%;
-	color: #000;
+	color: #444444;
 }
 .header a{
 	text-decoration: none;
 }
 .header a:link,a:visited
 {
-	color:#000;
+	color:#444444;
 }
 .header a:hover
 {
@@ -42,12 +42,16 @@ body{
 {
 	float: left;
 	width:50%;
+	font-size: 110%;
+	color:#333333;
+	letter-spacing:1px;
 }
 .header .nav
 {
 	float: right;
 	width:50%;
 	text-align: right;
+	font-size: 90%;
 }
 .header .nav li
 {
@@ -102,8 +106,9 @@ body{
 #work .title p
 {
 	padding: 5%;
-	font-size: 120%;
+	font-size: 150%;
 	text-align: center;
+	font-weight: 300;
 }
 #project
 {
