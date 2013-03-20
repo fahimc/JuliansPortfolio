@@ -6,5 +6,9 @@
 	"work.html": [
 	"resource/template/header.html",
 	"resource/template/project.html"
+	],
+	"about.html": [
+	"resource/template/header.html",
+	"resource/template/about.html"
 	]
 }

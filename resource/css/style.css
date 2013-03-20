@@ -3,7 +3,7 @@
 	padding: 0;
 	margin: 0;
 }
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 body{
 	background-color: #fff;
 	font-family: 'Open Sans', sans-serif;
@@ -149,4 +149,53 @@ body{
 #project .workImageHolder img
 {
 	width:100%;
+}
+#about
+{
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 50px;
+	
+}
+#about li
+{
+	float:left;
+	width: 31%;
+	margin-right: 2%;
+	margin-bottom: 0.6%;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	
+}
+#aboutMe
+{
+	font-size: 180%;
+	line-height: 160%;
+	font-weight: 300;
+	color: #666666;
+	margin-bottom: 30px;
+}
+#about .title
+{
+	font-size: 180%;
+	color:#333;
+	
+font-weight: 400;
+}
+#aboutExperience
+{
+	font-size: 120%;
+	line-height: 180%;
+}
+.clearBoth
+{
+	clear: both;
+}
+#testimonialCopy
+{
+	margin-top: 30px;
+	font-size: 120%;
+	line-height: 180%;
 }
