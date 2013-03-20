@@ -3,6 +3,7 @@
 $data = $_POST['data'];
 if (isset($data)) {
 	$saveData = new SaveData();
+	$saveData->backupData();
 	$saveData -> checkData($data);
 	$myFile = "../../data.json";
 	$fh = fopen($myFile, 'w') or die("can't open file");
@@ -16,8 +17,15 @@ if (isset($data)) {
 
 Class SaveData {
 	const DATA_URL = "../../data.json";
+	const BK_DATA_URL = "../resource/data/bk.json";
 	const IMAGE_FOLDER = "../resource/image/";
 	public $data;
+	public function backupData()
+	{
+		$data = file_get_contents(SaveData::DATA_URL, true);
+		file_put_contents(SaveData::BK_DATA_URL,$data);
+
+	}
 	public function checkData($val) {
 		$this -> data = json_decode($val);
 

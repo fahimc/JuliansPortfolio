@@ -10,7 +10,7 @@ var handlers={};
 		}
 		
 		
-		
+		Utensil.addListener(window,"resize",onResize);
 
 	}
 	function onDataLoaded()
@@ -61,13 +61,14 @@ var handlers={};
 	}
 	function onOverWork(target,index)
 	{
-		
-		document.getElementById("title-"+index).style.bottom="0";
+		TweenLite.to(document.getElementById("title-"+index),0.3,{css:{bottom:0}});
+		// .style.bottom="0";
 	}
 	function onOutWork(target,index)
 	{
 		if(!target.id ||target.id && target.id!="title-"+index )
-		document.getElementById("title-"+index).style.bottom="100%";
+		TweenLite.to(document.getElementById("title-"+index),0.3,{css:{bottom:"-100%"}});
+		// document.getElementById("title-"+index).style.bottom="-100%";
 	}
 	function onWorkClick(target,index)
 	{
@@ -86,6 +87,9 @@ var handlers={};
 		}
 		return "";
 	}
-
+	function onResize()
+	{
+		
+	}
 	Main();
 })(window);
